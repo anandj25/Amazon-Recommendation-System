@@ -27,16 +27,19 @@ Both methods were evaluated using the Root Mean Square Error (RMSE) metric to me
 
 ## Dataset
 
-The dataset used in this project is based on Amazon product reviews and contains the following features:
+The dataset used in this project is derived from the Amazon product reviews dataset and contains the following features:
 
-- `User_ID`: Identifier for users.
-- `Product_ID`: Identifier for products.
-- `Rating`: User's rating for a product.
-- `Timestamp`: Time when the rating was given (excluded from modeling).
+- **`User_ID`**: Identifier for users.
+- **`Product_ID`**: Identifier for products.
+- **`Rating`**: User's rating for a product.
+- **`Timestamp`**: Time when the rating was given (excluded from modeling).
 
 ### Dataset Details:
 - **Size**: 318 MB
 - **Records**: 7.82 million ratings
+
+### Download:
+The dataset can be downloaded from [UCSD's Amazon Reviews Dataset page](https://cseweb.ucsd.edu/~jmcauley/datasets.html#amazon_reviews).
 
 ---
 
